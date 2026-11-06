@@ -1,0 +1,13 @@
+{
+  "name": "online-pharmacy-management",
+  "version": "1.0.0",
+  "description": "Simple Online Pharmacy Management System",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "mysql2": "^3.11.5"
+  }
+}

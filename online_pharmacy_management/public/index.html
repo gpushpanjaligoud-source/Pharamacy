@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PUSHPANJALI Pharmacy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="brand">💊 PUSHPANJALI Pharmacy</div><nav><a href="#home">Home</a><a href="#medicines">Medicines</a><a href="#orders">Orders</a></nav></header>
+<main>
+<section id="home" class="hero"><h1>Your Trusted Online Pharmacy</h1><p>Search medicines, check prices and manage pharmacy orders.</p></section>
+<section class="stats">
+  <div class="card"><span>Total Medicines</span><strong id="totalMedicines">0</strong></div>
+  <div class="card"><span>Available Stock</span><strong id="availableMedicines">0</strong></div>
+  <div class="card"><span>Low Stock</span><strong id="lowStock">0</strong></div>
+  <div class="card"><span>Total Orders</span><strong id="totalOrders">0</strong></div>
+</section>
+<section id="medicines" class="panel"><div class="section-head"><h2>Medicines</h2><input id="search" placeholder="Search medicine..."></div><div class="table-wrap"><table><thead><tr><th>Name</th><th>Manufacturer</th><th>Price</th><th>Stock</th><th>Expiry Date</th></tr></thead><tbody id="medicineBody"></tbody></table></div></section>
+<section id="orders" class="panel"><h2>Recent Orders</h2><div class="table-wrap"><table><thead><tr><th>Order ID</th><th>Customer</th><th>Date</th><th>Total Amount</th><th>Status</th></tr></thead><tbody id="orderBody"></tbody></table></div></section>
+</main>
+<footer>Online Pharmacy Management System</footer>
+<script src="script.js"></script>
+</body>
+</html>
